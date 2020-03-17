@@ -7,7 +7,7 @@
 const fs = require('fs')
 const readline = require('readline')
 
-const urlToName = require('../lib/urlToName')
+const { urlToName } = require('../lib/urlToName')
 
 const yarnLockPath = process.argv[2]
 
