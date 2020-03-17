@@ -1,3 +1,15 @@
+# TenX Patches Added
+
+These unofficial patches were applied to this fork for our use:
+
+* 6290fed32c4bbaf422ca4d385ab1ff932715666f
+* 4b705a2554a4cbfef9494fafc29152eeb0586509
+
+There is also a minimal but much more reliable `mkYarnPackage` alternative which
+does not perform link farming nor most of the indirections that `yarn2nix` likes
+to do, since it is extremely brittle on large projects (especially those with
+Git dependencies that have Git submodules).
+
 # yarn2nix
 <img src="https://travis-ci.org/moretea/yarn2nix.svg?branch=master">
 
